@@ -24,25 +24,16 @@ const ProjectCard = ({ title, role, description, image, technologies, link, jour
         ))}
       </div>
       <div className="flex justify-between items-center">
-      <div className="flex flex-row gap-10 mt-4">
-  <a
-    href={link}
-    target="_blank"
-    className="text-blue-400 hover:text-blue-300 transition-colors"
-  >
-    View Project →
-  </a>
-  {journal && (
-    <a
-      href={journal}
-      target="_blank"
-      className="text-blue-400 hover:text-blue-300 transition-colors"
-    >
-      View Journal 📄
-    </a>
-  )}
-</div>
-
+        <div className="flex flex-row gap-10 mt-4">
+          <a href={link} target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+            View Project →
+          </a>
+          {journal && (
+            <a href={journal} target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+              View Journal 📄
+            </a>
+          )}
+        </div>
       </div>
     </motion.div>
   );
