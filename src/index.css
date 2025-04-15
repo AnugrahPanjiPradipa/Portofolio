@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+  scroll-behavior: smooth;
+
+  
+
+  /* Radial Gradient Background */
+  background-color: #000000;
+  background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
+  background-size: 20px 20px;
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-gradient {
+    background-size: 300% 300%;
+    animation: gradientMove 4s linear infinite;
+  }
+}
