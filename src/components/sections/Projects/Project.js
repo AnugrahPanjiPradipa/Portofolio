@@ -1,14 +1,16 @@
-import web from "/coding/Portfolio/my-app/src/assets/web.png";
-import notes from "/coding/Portfolio/my-app/src/assets/Notesapp.png";
+import web from "/coding/Portfolio/Portfolio/src/assets/web.png";
+import jabol from "/coding/Portfolio/Portfolio/src/assets/Jabol.png"
+import notes from "/coding/Portfolio/Portfolio/src/assets/Notesapp.png";
 
 export const projects = [
   {
     title: "Jabol (Jalanan Bolong)",
     role: "Front-End",
     description: "A website as a means of reporting damaged roads around the Telkom University.",
-    image: web,
+    image: jabol,
     technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "#",
+    link: "https://www.figma.com/design/AzkqQjiVNaffKtZzXfcCZd/UI-Jabol--Copy-?node-id=745-229&t=Fkt6lPqTNX58J6ct-1#",
+    journal: "https://publikasi.mercubuana.ac.id/index.php/fifo/article/view/26525", 
   },
   {
     title: "SnapClean",
