@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 import wajah from "/coding/Portfolio/Portfolio/src/assets/WAJAH.png";
 
 const Home = () => {
@@ -20,14 +20,14 @@ const Home = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 text-blue-500 text-2xl mb-6">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">
+          <a href="https://github.com/AnugrahPanjiPradipa" target="_blank" className="hover:text-blue-700 transition">
             <Github size={30} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">
+          <a href="https://www.linkedin.com/in/anugrah-panji-pradipa/" target="_blank" className="hover:text-blue-700 transition">
             <Linkedin size={30} />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">
-            <Twitter size={30} />
+          <a href="https://www.instagram.com/apidarp_/" target="_blank" className="hover:text-blue-700 transition">
+            <Instagram size={30} />
           </a>
         </div>
 

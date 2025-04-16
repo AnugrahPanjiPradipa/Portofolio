@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -7,20 +7,16 @@ export const Footer = () => {
         <p className="text-sm">&copy; 2025 Anugrah Panji Pradipa. All rights reserved.</p>
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a href="#" className="hover:text-gray-400">
-            <Facebook size={24} />
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            <Twitter size={24} />
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            <Instagram size={24} />
+            <Github size={24} />
           </a>
           <a href="#" className="hover:text-gray-400">
             <Linkedin size={24} />
+          </a>
+          <a href="#" className="hover:text-gray-400">
+            <Instagram size={24} />
           </a>
         </div>
       </div>
     </footer>
   );
 };
-
