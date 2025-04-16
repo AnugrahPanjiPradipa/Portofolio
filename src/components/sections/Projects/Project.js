@@ -1,6 +1,7 @@
 import web from "/coding/Portfolio/Portfolio/src/assets/web.png";
 import jabol from "/coding/Portfolio/Portfolio/src/assets/Jabol.png"
 import snap from "/coding/Portfolio/Portfolio/src/assets/Snapclean.png";
+import mind from "/coding/Portfolio/Portfolio/src/assets/mindease.png"
 import notes from "/coding/Portfolio/Portfolio/src/assets/Notesapp.png";
 
 export const projects = [
@@ -25,9 +26,9 @@ export const projects = [
     title: "MindEase",
     role: "Fullstack Android",
     description: "A mobile application that is useful for monitoring and helping Telkom students related to mental health.",
-    image: web,
+    image: mind,
     technologies: ["Kotlin", "Firebase"],
-    link: "#",
+    link: "https://github.com/MindEasee/MindEasee.git",
   },
   {
     title: "Portfolio Website",
