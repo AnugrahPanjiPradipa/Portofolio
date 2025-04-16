@@ -15,7 +15,7 @@ const Home = () => {
         </div>
 
         <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto pt-6">
-          I'm a full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.
+        Hi! I’m someone who’s genuinely passionate about design and front-end development. I love bringing ideas to life through clean, user-friendly interfaces and smooth interactions. For me, it's not just about making things look good—it’s about making them feel right for the user.
         </p>
 
         {/* Social Media Icons */}

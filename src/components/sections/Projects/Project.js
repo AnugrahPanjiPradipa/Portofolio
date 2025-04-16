@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     title: "Notes",
-    role: "FUllstack Website",
+    role: "Fullstack Website",
     description: "A simple notes app.",
     image: notes,
     technologies: ["MongoDB", "Express", "React", "Node"],
