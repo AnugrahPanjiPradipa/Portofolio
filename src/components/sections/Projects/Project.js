@@ -36,7 +36,7 @@ export const projects = [
     description: "My own portfolio website.",
     image: web,
     technologies: ["React", "Tailwind", "Motion", "Email.js"],
-    link: "#",
+    link: "https://panjiporto.netlify.app/",
   },
   {
     title: "Notes",
