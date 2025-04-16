@@ -1,5 +1,6 @@
 import web from "/coding/Portfolio/Portfolio/src/assets/web.png";
 import jabol from "/coding/Portfolio/Portfolio/src/assets/Jabol.png"
+import snap from "/coding/Portfolio/Portfolio/src/assets/Snapclean.png";
 import notes from "/coding/Portfolio/Portfolio/src/assets/Notesapp.png";
 
 export const projects = [
@@ -16,9 +17,9 @@ export const projects = [
     title: "SnapClean",
     role: "UI/UX Designer",
     description: "A mobile application that is useful for reporting dirty neighborhoods to the authorities.",
-    image: web,
+    image: snap,
     technologies: ["Figma"],
-    link: "#",
+    link: "https://www.figma.com/design/6zUjcSGYReBnPx21O7Sijg/MOCKUP-SNAPCLEAN?node-id=0-1&t=AevT9NFHvP8fCMiI-1",
   },
   {
     title: "MindEase",
