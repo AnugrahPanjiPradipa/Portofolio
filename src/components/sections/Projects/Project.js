@@ -1,8 +1,8 @@
-import web from "/coding/Portfolio/Portfolio/src/assets/web.png";
-import jabol from "/coding/Portfolio/Portfolio/src/assets/Jabol.png"
-import snap from "/coding/Portfolio/Portfolio/src/assets/Snapclean.png";
-import mind from "/coding/Portfolio/Portfolio/src/assets/mindease.png"
-import notes from "/coding/Portfolio/Portfolio/src/assets/Notesapp.png";
+import jabol from "/coding/Fix/Portfolio/src/assets/Jabol.png";
+import snap from "/coding/Fix/Portfolio/src/assets/Snapclean.png";
+import mind from "/coding/Fix/Portfolio/src/assets/mindease.png";
+import porto from "/coding/Fix/Portfolio/src/assets/Porto.png";
+import notes from "/coding/Fix/Portfolio/src/assets/Notesapp.png";
 
 export const projects = [
   {
@@ -12,7 +12,7 @@ export const projects = [
     image: jabol,
     technologies: ["HTML", "CSS", "Bootstrap"],
     link: "https://www.figma.com/design/AzkqQjiVNaffKtZzXfcCZd/UI-Jabol--Copy-?node-id=745-229&t=Fkt6lPqTNX58J6ct-1#",
-    journal: "https://publikasi.mercubuana.ac.id/index.php/fifo/article/view/26525", 
+    journal: "https://publikasi.mercubuana.ac.id/index.php/fifo/article/view/26525",
   },
   {
     title: "SnapClean",
@@ -34,7 +34,7 @@ export const projects = [
     title: "Portfolio Website",
     role: "Fullstack Website",
     description: "My own portfolio website.",
-    image: web,
+    image: porto,
     technologies: ["React", "Tailwind", "Motion", "Email.js"],
     link: "https://panjiporto.netlify.app/",
   },

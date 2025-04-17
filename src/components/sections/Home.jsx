@@ -1,6 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Instagram } from "lucide-react";
-import wajah from "/coding/Portfolio/Portfolio/src/assets/WAJAH.png";
+import wajah from "/coding/Fix/Portfolio/src/assets/WAJAH.png";
 
 const Home = () => {
   return (
