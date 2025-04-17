@@ -40,10 +40,10 @@ export const projects = [
   },
   {
     title: "Notes",
-    role: "Fullstack Website",
+    role: "Frontend Website",
     description: "A simple notes app.",
     image: notes,
-    technologies: ["MongoDB", "Express", "React", "Node"],
-    link: "#",
+    technologies: ["React"],
+    link: "https://reactnotesweb.netlify.app/",
   },
 ];
