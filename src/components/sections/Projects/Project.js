@@ -1,11 +1,11 @@
-import jabol from '/coding/Fix/Portfolio/src/assets/Jabol.png';
-import snap from '/coding/Fix/Portfolio/src/assets/Snapclean.png';
-import mind from '/coding/Fix/Portfolio/src/assets/mindease.png';
-import porto from '/coding/Fix/Portfolio/src/assets/Porto.png';
-import notes from '/coding/Fix/Portfolio/src/assets/Notesapp.png';
-import pengeluaran from '/coding/Fix/Portfolio/src/assets/Pengeluaran.png';
-import dashboard from '/coding/Fix/Portfolio/src/assets/dashboard.png';
-import film from '/coding/Fix/Portfolio/src/assets/film.png';
+import jabol from '../../../assets/Jabol.png';
+import snap from '../../../assets/Snapclean.png';
+import mind from '../../../assets/mindease.png';
+import porto from '../../../assets/Porto.png';
+import notes from '../../../assets/Notesapp.png';
+import pengeluaran from '../../../assets/Pengeluaran.png';
+import dashboard from '../../../assets/dashboard.png';
+import film from '../../../assets/film.png';
 
 export const projects = [
   {
