@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Jabol (Jalanan Bolong)',
     role: 'Front-End',
-    description: 'A website as a means of reporting damaged roads around the Telkom University.',
+    description: 'A community-driven platform for reporting and tracking damaged roads around Telkom University to accelerate repairs.',
     image: jabol,
     technologies: ['HTML', 'CSS', 'Bootstrap'],
     link: 'https://www.figma.com/design/AzkqQjiVNaffKtZzXfcCZd/UI-Jabol--Copy-?node-id=745-229&t=Fkt6lPqTNX58J6ct-1#',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'SnapClean',
     role: 'UI/UX Designer',
-    description: 'A mobile application that is useful for reporting dirty neighborhoods to the authorities.',
+    description: 'A mobile solution empowering users to report environmental waste directly to authorities for a cleaner neighborhood.',
     image: snap,
     technologies: ['Figma'],
     link: 'https://www.figma.com/design/6zUjcSGYReBnPx21O7Sijg/MOCKUP-SNAPCLEAN?node-id=0-1&t=AevT9NFHvP8fCMiI-1',
@@ -28,7 +28,7 @@ export const projects = [
   {
     title: 'MindEase',
     role: 'Fullstack Android',
-    description: 'A mobile application that is useful for monitoring and helping Telkom students related to mental health.',
+    description: 'A dedicated mental health companion for students, offering mood tracking and wellness support resources.',
     image: mind,
     technologies: ['Kotlin', 'Firebase'],
     link: 'https://github.com/MindEasee/MindEasee.git',
@@ -36,7 +36,7 @@ export const projects = [
   {
     title: 'Portfolio Website',
     role: 'Fullstack',
-    description: 'My own portfolio website.',
+    description: 'A modern, interactive portfolio showcasing my development journey, technical skills, and creative projects.',
     image: porto,
     technologies: ['React', 'Tailwind', 'Motion', 'Email.js'],
     link: 'https://panjiporto.netlify.app/',
@@ -44,7 +44,7 @@ export const projects = [
   {
     title: 'Notes',
     role: 'Frontend',
-    description: 'A simple notes app.',
+    description: 'A streamlined note-taking application designed for rapid idea capture and seamless organization.',
     image: notes,
     technologies: ['React'],
     link: 'https://reactnotesweb.netlify.app/',
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: 'Catatan Pengeluaran',
     role: 'Frontend',
-    description: 'Simple expense record application for personal use.',
+    description: 'An intuitive personal finance tracker helping users monitor daily expenses and manage budgets efficiently.',
     image: pengeluaran,
     technologies: ['React', 'Tailwind', 'Chart.js'],
     link: 'https://anugrahpanjipradipa.github.io/catatanPengeluaran/',
@@ -60,15 +60,15 @@ export const projects = [
   {
     title: 'Personal Dashboard',
     role: 'Frontend',
-    description: 'A personalized dashboard application built with React, Vite, and Tailwind CSS, featuring local weather (OpenWeatherMap API), daily quotes (Quotable API), a to-do list, an animated clock, and quick navigation links.',
+    description: 'A unified productivity hub featuring real-time weather, daily inspiration, task management, and quick access links.',
     image: dashboard,
     technologies: ['React', 'Tailwind', 'OpenWeatherMap API', 'Quotable API'],
     link: 'https://desktop-dashboards.netlify.app/',
   },
   {
-    title: 'Personal Dashboard',
+    title: 'Movies Rating App', 
     role: 'Frontend',
-    description: 'This is a Movies Rating web application built with React and Vite. It allows users to search and browse films by fetching data from The Movie Database (TMDB) API. Key features include infinite scrolling for movie lists and managing a personal favorites list that displays the average user rating. The application is styled using Tailwind CSS.',
+    description: 'An immersive movie discovery platform featuring infinite scrolling, search, and personalized watchlists powered by TMDB.',
     image: film,
     technologies: ['React', 'Tailwind', 'TMDB API', 'react-infinite-scroll-component', 'lucide-react', 'react-loading-indicators'],
     link: 'https://mymovies-rating.netlify.app/',
